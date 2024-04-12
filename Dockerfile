@@ -14,7 +14,7 @@ RUN npm install
 COPY src/ ./
 
 # Exposez le port utilisé par votre application web
-EXPOSE 3000
+EXPOSE 3333
 
 # Commande pour démarrer l'application web
 CMD ["node", "app.js"]
